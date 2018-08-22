@@ -1,4 +1,180 @@
 {
+  "trades":[
+	{
+		"id" : 1001,
+		"manager" : {
+			"name" : "Jr",
+			"roles" : [ "TRADER" ]
+		},
+		"tradeDate" : "2017-11-14",
+		"commodity" : "AL",
+		"side" : "Buy",
+		"quantity" : 100,
+		"price" : 1860.15,
+		"counterParty" : "Lorem",
+		"location" : "BA",
+		"tradeStatus" : "OPEN",
+		"currency" : "USD",
+		"_links" : {
+			"self" : {
+				"href" : "http://localhost:8080/api/trades/1"
+			},
+			"trade" : {
+				"href" : "http://localhost:8080/api/trades/1"
+			}
+		}
+	},
+	{
+		"id" : 1002,
+		"manager" : {
+			"name" : "Sr",
+			"roles" : [ "TRADER" ]
+		},
+		"tradeDate" : "2018-07-24",
+		"commodity" : "ZN",
+		"side" : "Buy",
+		"quantity" : 120,
+		"price" : 160.54,
+		"counterParty" : "Lorem",
+		"location" : "NY",
+		"tradeStatus" : "OPEN",
+		"currency" : "USD",
+		"_links" : {
+			"self" : {
+				"href" : "http://localhost:8080/api/trades/1"
+			},
+			"trade" : {
+				"href" : "http://localhost:8080/api/trades/1"
+			}
+		}
+
+	},
+	{
+		"id" : 1003,
+		"manager" : {
+			"name" : "Mr",
+			"roles" : [ "TRADER" ]
+		},
+		"tradeDate" : "2018-07-20",
+		"commodity" : "ZN",
+		"side" : "Buy",
+		"quantity" : 140,
+		"price" : 150.54,
+		"counterParty" : "Dolor",
+		"location" : "SG",
+		"tradeStatus" : "OPEN",
+		"currency" : "USD",
+		"_links" : {
+			"self" : {
+				"href" : "http://localhost:8080/api/trades/1"
+			},
+			"trade" : {
+				"href" : "http://localhost:8080/api/trades/1"
+			}
+		}
+
+	},
+	{
+		"id" : 1004,
+		"manager" : {
+			"name" : "Nr",
+			"roles" : [ "TRADER" ]
+		},
+		"tradeDate" : "2018-07-24",
+		"commodity" : "CU",
+		"side" : "Sell",
+		"quantity" : 20,
+		"price" : 1700.54,
+		"counterParty" : "Lorem",
+		"location" : "SG",
+		"tradeStatus" : "NOMINATED",
+		"currency" : "USD",
+		"_links" : {
+			"self" : {
+				"href" : "http://localhost:8080/api/trades/1"
+			},
+			"trade" : {
+				"href" : "http://localhost:8080/api/trades/1"
+			}
+		}
+
+	},
+	{
+		"id" : 1005,
+		"manager" : {
+			"name" : "Sr",
+			"roles" : [ "TRADER" ]
+		},
+		"tradeDate" : "2018-05-11",
+		"commodity" : "ZN",
+		"side" : "Sell",
+		"quantity" : 110,
+		"price" : 170.54,
+		"counterParty" : "Ipsum",
+		"location" : "NY",
+		"tradeStatus" : "NOMINATED",
+		"currency" : "USD",
+		"_links" : {
+			"self" : {
+				"href" : "http://localhost:8080/api/trades/1"
+			},
+			"trade" : {
+				"href" : "http://localhost:8080/api/trades/1"
+			}
+		}
+
+	},
+	{
+		"id" : 1006,
+		"manager" : {
+			"name" : "Mr",
+			"roles" : [ "TRADER" ]
+		},
+		"tradeDate" : "2018-07-24",
+		"commodity" : "AG",
+		"side" : "Buy",
+		"quantity" : 1250,
+		"price" : 90.54,
+		"counterParty" : "Amet",
+		"location" : "SG",
+		"tradeStatus" : "OPEN",
+		"currency" : "EUR",
+		"_links" : {
+			"self" : {
+				"href" : "http://localhost:8080/api/trades/1"
+			},
+			"trade" : {
+				"href" : "http://localhost:8080/api/trades/1"
+			}
+		}
+
+	},
+	{
+		"id" : 1007,
+		"manager" : {
+			"name" : "Nr",
+			"roles" : [ "TRADER" ]
+		},
+		"tradeDate" : "2018-07-24",
+		"commodity" : "AG",
+		"side" : "SELL`",
+		"quantity" : 1450,
+		"price" : 100.54,
+		"counterParty" : "Dolor",
+		"location" : "DN",
+		"tradeStatus" : "OPEN",
+		"currency" : "EUR",
+		"_links" : {
+			"self" : {
+				"href" : "http://localhost:8080/api/trades/1"
+			},
+			"trade" : {
+				"href" : "http://localhost:8080/api/trades/1"
+			}
+		}
+
+	}
+  ],
   "posts": [
     {
       "id": 1,
