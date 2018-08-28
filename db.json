@@ -157,7 +157,7 @@
 		},
 		"tradeDate" : "2018-07-24",
 		"commodity" : "AG",
-		"side" : "SELL`",
+		"side" : "Sell",
 		"quantity" : 1450,
 		"price" : 100.54,
 		"counterParty" : "Dolor",
